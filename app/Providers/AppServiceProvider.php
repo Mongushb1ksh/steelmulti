@@ -8,17 +8,21 @@ class AppServiceProvider extends ServiceProvider
 {
     /**
      * Register any application services.
+     *
+     * @return void
      */
-    public function register(): void
+    public function register()
     {
-        //
+        // Здесь можно зарегистрировать любые дополнительные сервисы
     }
 
     /**
      * Bootstrap any application services.
+     *
+     * @return void
      */
-    public function boot(): void
+    public function boot()
     {
-        //
+        // Убедитесь, что нет зависимости от класса "files"
     }
 }
